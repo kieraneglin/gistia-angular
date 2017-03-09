@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "author": "Kieran Eglin",
   "description": "This is for Gistia JS engineer position",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/planetoftheweb/learnangular.git"
-  },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
   },
@@ -32,5 +28,15 @@
     "lite-server": "2.2.2",
     "rimraf": "2.5.4",
     "typescript": "2.0.2"
-  }
+  },
+  "main": "systemjs.config.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieraneglin/gistia-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kieraneglin/gistia-angular/issues"
+  },
+  "homepage": "https://github.com/kieraneglin/gistia-angular#readme"
 }
